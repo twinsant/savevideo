@@ -25,4 +25,4 @@ if __name__ == '__main__':
             video_url, profile = link
             # Exclude HD and Mobile versions
             if profile.find('(MP4 format)')!=-1:
-                print video_url, profile
+                download_video(video_url)
